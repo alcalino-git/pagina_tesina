@@ -27,6 +27,10 @@ export default defineConfig({
 					label: 'Desarrollo',
 					autogenerate: {directory: '/contenido/desarrollo'}
 				},
+				{
+					label: 'Resultados',
+					autogenerate: {directory: '/contenido/resultados'}
+				},
 
 			],
 		}),
