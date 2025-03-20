@@ -16,9 +16,18 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Tabla de contenido',
-					autogenerate: {directory: 'contenido'}
-				}
+					label: 'Introducción',
+					autogenerate: {directory: '/contenido/introduccion'}
+				},
+				{
+					label: 'Marco teórico',
+					autogenerate: {directory: '/contenido/marco_teorico'}
+				},
+				{
+					label: 'Desarrollo',
+					autogenerate: {directory: '/contenido/desarrollo'}
+				},
+
 			],
 		}),
 	],
