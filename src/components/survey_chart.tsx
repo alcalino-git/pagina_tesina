@@ -42,7 +42,14 @@ export function SurveyChart() {
     return <div style={{width: "90%"}}>
 
         {csv?.map((e,i) => {
-            return <div style={{width: "100%", height: "30vh", marginBottom: "10vh", display: "flex", flexDirection: "column", alignItems: "center"}}>
+            return <div style={{
+                width: "100%", 
+                height: "30vh", 
+                marginBottom: "10vh", 
+                display: "flex", 
+                flexDirection: "column", 
+                alignItems: "center",
+                }}>
                 <h4>{e.Pregunta}</h4>
                 <Doughnut data={{
                     labels: ["Sí", "No"],
