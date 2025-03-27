@@ -13,6 +13,7 @@
     "@astrojs/react": "^4.2.1",
     "@astrojs/starlight": "^0.32.3",
     "@emotion/react": "^11.14.0",
+    "@react-spring/web": "^9.7.5",
     "@table-library/react-table-library": "^4.1.12",
     "astro": "^5.1.5",
     "chart.js": "^4.4.8",
