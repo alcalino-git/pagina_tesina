@@ -14,6 +14,7 @@ export default defineConfig({
 		starlight({
 			title: 'Proyecto de Tesina',
 			social: {
+				github: "https://github.com/alcalino-git/pagina_tesina"
 			},
 			sidebar: [
 				{
